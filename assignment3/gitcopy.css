@@ -11,7 +11,9 @@ header{
 
 .search{
     padding-bottom: 0;
-    margin-top: 5px
+    padding-top: 0px;
+    margin-top: 0px;
+
 }
 
 body{
@@ -27,7 +29,10 @@ a{
 
 .bn{
     padding:15px;
-    
+}
+
+.bn:hover{
+    color: gray;
 }
 
 nav{
@@ -57,7 +62,7 @@ ul > li{
     margin-left: 0;
     display: inline-block;
     padding-bottom: 0;
-    padding-top: 15px;
+    padding-top: 0px;
 }
 
 .container1{
@@ -90,9 +95,11 @@ ul > li{
 
 input{
     width: 250px;
-    background-color: gray;
+    color: gray;
+    background-color: rgb(66, 61, 61);
     border: 0;
     height: 25px;
+    border-radius: 5px;
 }
 
 .section1{
@@ -106,30 +113,110 @@ input{
 }
 
 .profilepic{
-    padding:25px;
+    padding:25px 25px 0px 15px;
+}
+
+.profilepic img{
+    height: 280px;
+    width: 270px;
+    border: 1px solid gray;
 }
 
 .menu{
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
-    margin:0;  
+    padding-top: 30px;
+    margin:0;
+    color: gray;
+}
+
+.upper{
+    border-bottom: 2px solid grey;
+    padding: 10px;
+}
+
+.upper ul a:hover{
+    color: black
 }
 
 .menu a{
-    color: black;
-    padding: 21px;
-    border-bottom: 2px solid black;
+    color: grey;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0px;
 }
 
 .two{
     display: flex;
     flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .right{
     padding-left: 600px;
-    padding-top: 50px;
 }
 
+.card{
+    display: flex;
+    flex-direction: row;
+}
+
+.card1{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 385px;
+    padding-bottom: 40px;
+    margin:10px 10px 10px 0px;
+}
+
+.card2{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 385px;
+    padding-bottom: 40px;
+    margin:10px;
+}
+
+.info{
+    height: 300px;
+    width: 270px;
+    padding-right: 0px;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+
+.status{
+    width:270px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.username{
+    font-size: 20px;
+    color: gray;
+}
+
+.edit{
+    width: 270px;
+    border-radius: 5px;
+    background-color: rgb(231, 234, 243);
+    color: black;
+    border: 1px gray solid;
+}
+
+.edit:hover{
+    background-color: grey;
+}
+
+.time{
+    font-size: 13px;
+    color: gray;
+}
